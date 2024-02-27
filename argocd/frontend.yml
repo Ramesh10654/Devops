@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend
+  name: frontend1
   namespace: thetym
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: frontend
+      app: frontend1
   template:
     metadata:
       labels:
-        app: frontend
+        app: frontend1
     spec:
       containers:
-      - name: frontend
+      - name: frontend1
         image: dinesh10275/dev-frontend:v1
         ports:
         - containerPort: 80
