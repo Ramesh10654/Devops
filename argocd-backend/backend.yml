@@ -4,25 +4,23 @@ metadata:
   name: backend
   namespace: thetym
   labels:
-    app: backend
+    app: backend1
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: backend
+      app: backend1
   template:
     metadata:
       labels:
-        app: backend
+        app: backend1
     spec:
       containers:
-      - name: backend
+      - name: backend1
         image: dinesh10275/dev-backend:v1
         ports:
         - containerPort: 80  # Add the container port if your backend service listens on a specific port
         env:
         - name: SPRING_DATA_MONGODB_URI
           value: mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betatest?retryWrites=true&w=majority
-        imagePullPolicy: IfNotPresent  # Specify the image pull policy if needed
-        imagePullSecrets:
-        - name: dockerhub-secret
+       
