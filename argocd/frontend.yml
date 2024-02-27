@@ -15,14 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/ramesh10654/myapp:v1.2
+        image: dinesh10275/dev-frontend:v1
         ports:
         - containerPort: 80
-        resources:
-          requests:
-            memory: "64Mi"  # Request 64 Megabytes of memory
-            cpu: "250m"      # Request 250 milliCPU (0.25 CPU)
-          limits:
-            memory: "128Mi"  # Limit to 128 Megabytes of memory
-            cpu: "500m"      # Limit to 500 milliCPU (0.5 CPU)
-
+        
