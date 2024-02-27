@@ -1,10 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend
-  namespace: thetym
   labels:
     app: backend1
+    app.kubernetes.io/instance: backend1
+  name: backend
+  namespace: thetym
 spec:
   replicas: 1
   selector:
@@ -16,10 +17,11 @@ spec:
         app: backend1
     spec:
       containers:
-      - name: backend1
-        image: dinesh10275/dev-backend:v1
-        ports:
-        - containerPort: 80
-        env:
-        - name: SPRING_DATA_MONGODB_URI
-          value: mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betatest?retryWrites=true&w=majority
+        - env:
+            - name: SPRING_DATA_MONGODB_URI
+              value: >-
+                mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betatest?retryWrites=true&w=majority
+          image: 'dinesh10275/dev-backend:v1'
+          name: backend1
+          ports:
+            - containerPort: 80
