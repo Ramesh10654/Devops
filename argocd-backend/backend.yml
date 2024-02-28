@@ -20,7 +20,7 @@ spec:
         - env:
             - name: SPRING_DATA_MONGODB_URI
               value: >-
-                mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betatest?retryWrites=true&w=majority
+               mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betatest?retryWrites=true&w=majority
           image: 'dinesh10275/dev-backend:beta'
           name: backend1
           ports:
