@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend1
-        image: dinesh10275/dev-frontend:beta
+        image: dinesh10275/dev-frontend:beta1
         ports:
         - containerPort: 80
         
