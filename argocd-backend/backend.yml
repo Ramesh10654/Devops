@@ -19,8 +19,7 @@ spec:
       containers:
         - env:
             - name: SPRING_DATA_MONGODB_URI
-              value: >-
-              mongodb://dbadmin:bbs2020@3.110.50.124:37011,3.110.50.124:37022,3.110.50.124:37033/Thetymv2?replicaSet=ReplSet1&authSource=admin
+              value: "mongodb://dbadmin:bbs2020@3.110.50.124:37011,3.110.50.124:37022,3.110.50.124:37033/Thetymv2?replicaSet=ReplSet1&authSource=admin"
           image: dinesh10275/dev-backend:beta1
           name: backend1
           ports:
