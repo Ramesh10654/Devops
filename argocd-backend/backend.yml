@@ -4,7 +4,7 @@ metadata:
   labels:
     app: backend1
     app.kubernetes.io/instance: backend1
-  name: backend
+  name: backend1
   namespace: thetym
 spec:
   replicas: 1
