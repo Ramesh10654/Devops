@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: dev-frontend
-        image: docker.io/ramesh10654/myapp:v1.1
+        image: docker.io/ramesh10654/dev-frontend:1.2
         ports:
         - containerPort: 80
