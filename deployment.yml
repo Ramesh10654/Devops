@@ -1,26 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  labels:
-    app: dev-backend
-    app.kubernetes.io/instance: dev-backend
-  name: dev-backend
+  name: dev-frontend
   namespace: thetym
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: dev-backend
+      app: dev-frontend
   template:
     metadata:
       labels:
-        app: dev-backend
+        app: dev-frontend
     spec:
       containers:
-        - env:
-            - name: SPRING_DATA_MONGODB_URI
-              value: "mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betanew?retryWrites=true&w=majority"
-          image: docker.io/ramesh10654/dev-frontend:1.1
-          name: dev-backend
-          ports:
-            - containerPort: 80
+      - name: dev-frontend
+        image: docker.io/ramesh10654/myapp:v1.1
+        ports:
+        - containerPort: 80
