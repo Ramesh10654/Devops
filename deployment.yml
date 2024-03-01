@@ -20,7 +20,7 @@ spec:
         - env:
             - name: SPRING_DATA_MONGODB_URI
               value: "mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betanew?retryWrites=true&w=majority"
-          image: docker.io/ramesh10654/dev-backend:1.1
+          image: docker.io/ramesh10654/dev-backend:1.2
           name: dev-backend
           ports:
             - containerPort: 80
