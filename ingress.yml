@@ -10,14 +10,14 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: my.test.com
+    - host: devnew.thetym.com
       http:
         paths:
           - backend:
               service:
                 name: dev-frontend
                 port:
-                  number: 85  # Change to 80 to match the service port
+                  number: 80  # Change to 80 to match the service port
             path: /
             pathType: Prefix
  
