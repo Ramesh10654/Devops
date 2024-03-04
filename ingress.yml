@@ -20,4 +20,7 @@ spec:
                   number: 80  # Change to 80 to match the service port
             path: /
             pathType: Prefix
- 
+  tls:
+    - hosts:
+        - devnew.thetym.com
+      secretName: devnew-thetym-tls-secret
