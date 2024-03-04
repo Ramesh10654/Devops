@@ -6,7 +6,7 @@ metadata:
 spec:
   secretName: devnew-thetym-tls-secret
   issuerRef:
-    name: letsencrypt-prod  # Change to your issuer's name (e.g., letsencrypt-prod) for production
+    name: letsencrypt-staging  # Change to your issuer's name (e.g., letsencrypt-prod) for production
     kind: ClusterIssuer
   dnsNames:
     - devnew.thetym.com
