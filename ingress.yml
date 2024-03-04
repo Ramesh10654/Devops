@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: devnew.thetym.com
+    - host: localhost
       http:
         paths:
           - backend:
