@@ -4,10 +4,10 @@ metadata:
   name: dev-frontend
   namespace: thetym
 spec:
-  type: NodePort
+  type: ClusterIP  # Change the type to ClusterIP
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30002
   selector:
     app: dev-frontend
+
