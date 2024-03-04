@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: dev-frontend-tls
+  namespace: thetym
+spec:
+  secretName: dev-frontend-tls
+  dnsNames:
+    - devaccount.thetym.com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
