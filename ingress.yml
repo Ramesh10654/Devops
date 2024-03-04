@@ -17,6 +17,6 @@ spec:
               service:
                 name: dev-frontend
                 port:
-                  number: 84
+                  number: 82
             path: /
             pathType: Prefix
