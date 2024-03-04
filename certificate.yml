@@ -4,9 +4,10 @@ metadata:
   name: dev-frontend-cert
   namespace: thetym
 spec:
-  secretName: dev-frontend-tls
+  secretName: tls-secret
+  dnsNames:
+    - devnew.thetym.com
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
-  dnsNames:
-    - devnew.thetym.com
+    group: cert-manager.io
