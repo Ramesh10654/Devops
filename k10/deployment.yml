@@ -1,7 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  labels:
+    app.kubernetes.io/instance: kastenk10
   name: k10
+  namespace: kasten-io
 spec:
   replicas: 1
   selector:
@@ -13,7 +16,7 @@ spec:
         app: k10
     spec:
       containers:
-      - name: k10
-        image: kastenhq/k10:v6.5.6
-        ports:
-        - containerPort: 8080
+        - image: 'kastenhq/k10:v6.5.6'
+          name: k10
+          ports:
+            - containerPort: 8080
