@@ -1,21 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: netflix-app
-  labels:
-    app: netflix-app
+  name: k10
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: netflix-app
+      app: k10
   template:
     metadata:
       labels:
-        app: netflix-app
+        app: k10
     spec:
       containers:
-      - name: netflix-app
-        image: nasi101/netflix:latest
+      - name: k10
+        image: kastenhq/k10:v6.5.6
         ports:
-        - containerPort: 80
+        - containerPort: 8080
