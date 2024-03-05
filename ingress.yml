@@ -8,7 +8,7 @@ metadata:
   name: dev-frontend-ingress
   namespace: thetym
 spec:
-  ingressClassName: nginx
+  ingressClassName: nginx  # This line might be unnecessary as you're already specifying the class in annotations.
   rules:
     - host: devnew.thetym.com
       http:
@@ -17,10 +17,11 @@ spec:
               service:
                 name: dev-frontend
                 port:
-                  number: 80  # Change to 80 to match the service port
+                  number: 80
             path: /
             pathType: Prefix
   tls:
     - hosts:
         - devnew.thetym.com
       secretName: devnew-thetym-tls-secret
+
