@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: log-retrieval
+  namespace: thetym
+spec:
+  template:
+    spec:
+      containers:
+      - name: log-retrieval
+        image: docker.io/ramesh10654/your-log-retrieval-image:1.0.3  # Updated image version
+        command: ["sh", "-c", "kubectl logs -n thetym -l app=dev-frontend > dev-frontend-logs.txt; kubectl delete pods -n thetym -l app=dev-frontend"]
+      restartPolicy: Never
+  backoffLimit: 4
