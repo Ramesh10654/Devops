@@ -4,7 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: nginx-poxy-manager
   name: nginx-proxy-manager
-  namespace: your-namespace
+  namespace: thetym
 spec:
   ports:
     - nodePort: 30080
