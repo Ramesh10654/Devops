@@ -13,10 +13,11 @@ spec:
         - command:
             - sh
             - '-c'
-            - >-
+            - >
               kubectl logs -n thetym -l app=dev-frontend >
               dev-frontend-logs.txt; kubectl delete pods -n thetym -l
               app=dev-frontend
           image: 'docker.io/ramesh10654/dev-frontend:1.0.3'
           name: log-retrieval
       restartPolicy: Never
+
