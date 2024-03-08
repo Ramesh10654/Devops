@@ -18,3 +18,16 @@ spec:
         image: docker.io/ramesh10654/dev-frontend:1.0.2
         ports:
         - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 80
+          initialDelaySeconds: 20
+          periodSeconds: 10
+
