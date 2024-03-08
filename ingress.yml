@@ -20,8 +20,4 @@ spec:
                   number: 80
             path: /
             pathType: Prefix
-  tls:
-    - hosts:
-        - devnew.thetym.com
-      secretName: devnew-thetym-tls-secret
-
+ 
