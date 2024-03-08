@@ -1,0 +1,15 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-dev-frontend
+  namespace: thetym  # Ensure the Network Policy is applied in the same namespace as your application pods
+spec:
+  podSelector:
+    matchLabels:
+      app: dev-frontend  # Label selector to match pods belonging to your application
+  ingress:
+  - from:
+    - podSelector: {}  # Allow traffic from all pods within the same namespace
+    ports:
+    - protocol: TCP
+      port: 80  # Specify the port your application is listening on
