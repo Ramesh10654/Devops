@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-proxy-manager
-  namespace: thetym  # Replace 'your-namespace' with your desired namespace name
+  namespace: thetym
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: nginx-proxy-manager
   ports:
@@ -16,11 +16,10 @@ spec:
       protocol: TCP
       port: 81
       targetPort: 81
-      nodePort: 30081
     - name: https
       protocol: TCP
       port: 443
       targetPort: 443
-     
+
 
 
