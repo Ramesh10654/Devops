@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx  # This line might be unnecessary as you're already specifying the class in annotations.
   rules:
-    - host: www.thetym.com
+    - host: app.thetym.com
       http:
         paths:
           - backend:
