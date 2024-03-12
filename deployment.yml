@@ -30,6 +30,9 @@ spec:
             port: 80
           initialDelaySeconds: 20
           periodSeconds: 10
+        env:  # Add this line to include environment variables
+        - name: baseUrl  # Name of the environment variable
+          value: "https://devaccount.thetym.com/thetym-service/"  # Value of the environment variable
         resources:
           requests:
             memory: "64Mi"  # Request 64 Megabytes of memory
