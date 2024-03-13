@@ -17,6 +17,6 @@ spec:
         image: atlassian/jira-software:latest
         ports:
         - containerPort: 8080
-        env:
-          - name: JIRA_DATABASE_URL
+        - name: SPRING_DATA_MONGODB_URI
+              value: "mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betanew1?retryWrites=true&w=majority"
            
