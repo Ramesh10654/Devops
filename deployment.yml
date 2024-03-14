@@ -4,7 +4,7 @@ metadata:
   name: dev-frontend
   namespace: thetym
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: dev-frontend
