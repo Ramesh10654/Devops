@@ -40,3 +40,15 @@ spec:
           limits:
             memory: "128Mi"  # Limit to 128 Megabytes of memory
             cpu: "500m"      # Limit to 500 milliCPU (0.5 CPU)
+      strategy:
+        type: Canary
+        canary:
+          # Specify the number of canary replicas
+          replicas: 1
+          # Specify the weight of the canary (percentage of total)
+          weight: 10
+          # Specify the steps for the canary deployment
+          steps:
+          - setWeight: 10
+            pause: 
+              duration: 1m
