@@ -1,0 +1,48 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: dev-frontend1
+  namespace: thetym
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dev-frontend1
+  template:
+    metadata:
+      labels:
+        app: dev-frontend1
+    spec:
+      containers:
+      - name: dev-frontend1
+        image: docker.io/thetym/dev-frontend:v1.4
+        ports:
+        - containerPort: 80
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 80
+          initialDelaySeconds: 15
+          periodSeconds: 10
+        readinessProbe:
+          httpGet:
+            path: /ready
+            port: 80
+          initialDelaySeconds: 20
+          periodSeconds: 10
+        env:  
+        - name: baseUrl  
+          value: "https://devaccount.thetym.com/thetym-service/"
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+  strategy:
+    canary:
+      steps:
+      - setWeight: 10
+        pause: 
+          duration: 1m
