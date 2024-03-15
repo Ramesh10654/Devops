@@ -1,6 +1,8 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
+  labels:
+    app.kubernetes.io/instance: argo-blue-green
   name: dev-frontend1
   namespace: thetym
 spec:
@@ -8,50 +10,50 @@ spec:
   selector:
     matchLabels:
       app: dev-frontend1
+  strategy:
+    blueGreen:
+      activeService: dev-frontend1-active
+      autoPromotionEnabled: true
+      postPromotionAnalysis:
+        metrics:
+          - interval: 60s
+            name: latency
+            threshold: 400
+      prePromotionAnalysis:
+        metrics:
+          - interval: 60s
+            name: latency
+            threshold: 500
+      previewService: dev-frontend1-preview
   template:
     metadata:
       labels:
         app: dev-frontend1
     spec:
       containers:
-      - name: dev-frontend1
-        image: docker.io/thetym/dev-frontend:v1.4
-        ports:
-        - containerPort: 80
-        livenessProbe:
-          httpGet:
-            path: /healthz
-            port: 80
-          initialDelaySeconds: 15
-          periodSeconds: 10
-        readinessProbe:
-          httpGet:
-            path: /ready
-            port: 80
-          initialDelaySeconds: 20
-          periodSeconds: 10
-        env:  
-        - name: baseUrl  
-          value: "https://devaccount.thetym.com/thetym-service/"
-        resources:
-          requests:
-            memory: "64Mi"
-            cpu: "250m"
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
-  strategy:
-    blueGreen:
-      activeService: dev-frontend1-active
-      previewService: dev-frontend1-preview
-      autoPromotionEnabled: true
-      prePromotionAnalysis:
-        metrics:
-        - name: "latency"
-          threshold: 500
-          interval: 60s
-      postPromotionAnalysis:
-        metrics:
-        - name: "latency"
-          threshold: 400
-          interval: 60s
+        - env:
+            - name: baseUrl
+              value: 'https://devaccount.thetym.com/thetym-service/'
+          image: 'docker.io/thetym/dev-frontend:v1.4'
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 80
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          name: dev-frontend1
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 80
+            initialDelaySeconds: 20
+            periodSeconds: 10
+          resources:
+            limits:
+              cpu: 500m
+              memory: 128Mi
+            requests:
+              cpu: 250m
+              memory: 64Mi
