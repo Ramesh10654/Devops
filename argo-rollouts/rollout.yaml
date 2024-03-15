@@ -41,8 +41,17 @@ spec:
             memory: "128Mi"
             cpu: "500m"
   strategy:
-    canary:
-      steps:
-      - setWeight: 10
-      - pause: 
-          duration: 1m
+    blueGreen:
+      activeService: dev-frontend1-active
+      previewService: dev-frontend1-preview
+      autoPromotionEnabled: true
+      prePromotionAnalysis:
+        metrics:
+        - name: "latency"
+          threshold: 500
+          interval: 60s
+      postPromotionAnalysis:
+        metrics:
+        - name: "latency"
+          threshold: 400
+          interval: 60s
