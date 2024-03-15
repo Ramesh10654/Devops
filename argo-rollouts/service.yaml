@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: dev-frontend
+  namespace: thetym
+spec:
+  type: NodePort  # Specify the service type as NodePort
+  selector:
+    app: dev-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30009  # Specify the nodePort value, or leave it blank to let Kubernetes allocate one
