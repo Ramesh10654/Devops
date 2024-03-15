@@ -11,4 +11,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-      nodePort: 30009  # Specify the nodePort value, or leave it blank to let Kubernetes allocate one
+      nodePort: 30008  # Specify the nodePort value, or leave it blank to let Kubernetes allocate one
