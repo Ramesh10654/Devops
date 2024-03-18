@@ -4,10 +4,15 @@ metadata:
   name: dev-frontend
   namespace: thetym
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: dev-frontend
+  strategy:
+    type: Canary
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
   template:
     metadata:
       labels:
