@@ -2,36 +2,38 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: backend
-    app.kubernetes.io/instance: backend
-  name: backend
+    app: dev-backend
+    app.kubernetes.io/instance: dev-backend
+  name: dev-backend
   namespace: thetym
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: backend
+      app: dev-backend
   template:
     metadata:
       labels:
-        app: backend
+        app: dev-backend
     spec:
       containers:
-        - env:
-            - name: SPRING_DATA_MONGODB_URI
-              value: >-
-               mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/testdb?retryWrites=true&w=majority
-          image: docker.io/ramesh10654/thetymbackend:v1.3
-          imagePullPolicy: IfNotPresent
-          name: backend
+        - name: dev-backend
+          image: docker.io/dinesh10275/dev-backend:v1.0
           ports:
             - containerPort: 80
+          env:
+            - name: SPRING_DATA_MONGODB_URI
+              value: "mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betanew1?retryWrites=true&w=majority"
+            - name: baseUrl
+              value: "https://devaccount.thetym.com/thetym-service/"
+            - name: frontEndUrl
+              value: "https://dev.thetym.com/"
           resources:
             limits:
               cpu: "2"   # 2 CPU
               memory: "4Gi"  # 4 Gibibyte
             requests:
-              cpu: "0.5"   # 2 CPU
-              memory: "1Gi"  # 2 Gibibyte
+              cpu: "2"   # 1 CPU
+              memory: "2Gi"  # 1 Gibibyte
       imagePullSecrets:
-        - name: dockerhub-secret
+        - name: dockerhub-secret-backend
