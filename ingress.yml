@@ -6,7 +6,7 @@ metadata:
   labels:
     app.kubernetes.io/instance: dev-backend
   name: dev-backend-ingress
-  namespace: thetym
+  namespace: argo-rollouts
 spec:
   ingressClassName: nginx  # This line might be unnecessary as you're already specifying the class in annotations.
   rules:
