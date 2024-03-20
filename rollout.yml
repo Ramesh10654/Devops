@@ -20,7 +20,10 @@ spec:
         - containerPort: 80
         env:
           - name: SPRING_DATA_MONGODB_URI
-            value: "mongodb+srv://admin:bbs2020@cluster0.ohkfp.mongodb.net/betanew1?retryWrites=true&w=majority"
+            valueFrom:
+          secretKeyRef:
+            name: mongodb-uri-secret
+            key: mongodb-uri
           - name: baseUrl
             value: "https://devaccount.thetym.com/thetym-service/"
           - name: frontEndUrl
