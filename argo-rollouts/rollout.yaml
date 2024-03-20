@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-frontend1
-        image: docker.io/thetym/dev-frontend:v1.6
+        image: docker.io/thetym/dev-frontend:v1.4
         ports:
         - containerPort: 80
         livenessProbe:
