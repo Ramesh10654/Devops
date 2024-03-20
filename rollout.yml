@@ -21,9 +21,9 @@ spec:
         env:
           - name: SPRING_DATA_MONGODB_URI
             valueFrom:
-          secretKeyRef:
-            name: mongodb-uri-secret
-            key: mongodb-uri
+              secretKeyRef:
+                name: mongodb-uri-secret
+                key: mongodb-uri
           - name: baseUrl
             value: "https://devaccount.thetym.com/thetym-service/"
           - name: frontEndUrl
