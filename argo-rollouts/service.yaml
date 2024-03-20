@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name:  dev-frontend1
-  namespace: thetym
+  namespace: argo-rollouts
 spec:
   type: NodePort  # Specify the service type as NodePort
   selector:
