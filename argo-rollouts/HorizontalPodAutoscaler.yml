@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: frontend-autoscaler1
+  namespace: argo-rollouts
+spec:
+  scaleTargetRef:
+    apiVersion: argoproj.io/v1alpha1
+    kind: Rollout
+    name: dev-frontend1
+  minReplicas: 1
+  maxReplicas: 3
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 70
