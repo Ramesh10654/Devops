@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/v1alpha1
+apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: frontend-autoscaler1
@@ -10,10 +10,4 @@ spec:
     name: dev-frontend1
   minReplicas: 1
   maxReplicas: 3
-  metrics:
-  - type: Resource
-    resource:
-      name: cpu
-      target:
-        type: Utilization
-        averageUtilization: 70
+  targetCPUUtilizationPercentage: 70
