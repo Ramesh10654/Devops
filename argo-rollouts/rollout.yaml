@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: dev-frontend1
-  namespace: thetym
+  namespace: argo-rollouts
 spec:
   replicas: 2
   selector:
