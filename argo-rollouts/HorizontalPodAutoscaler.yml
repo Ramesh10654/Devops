@@ -6,7 +6,7 @@ metadata:
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
-    kind: Rollouts
+    kind: Rollout
     name: dev-frontend1
   minReplicas: 1   # Minimum number of replicas
   maxReplicas: 3  # Maximum number of replicas
