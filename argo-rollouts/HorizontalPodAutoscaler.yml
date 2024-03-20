@@ -1,7 +1,7 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: frontend-autoscaler
+  name: frontend-autoscaler1
   namespace: argo-rollouts
 spec:
   scaleTargetRef:
