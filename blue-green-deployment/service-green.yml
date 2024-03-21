@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     app: frontend
-    color: green
+    color: green  # Make sure this label matches the label in the Rollout spec
   ports:
     - protocol: TCP
       port: 80
