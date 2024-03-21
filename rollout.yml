@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: dev-backend
-        image: docker.io/dinesh10275/dev-backend:v1.0
+        image: docker.io/dinesh10275/dev-backend:v1.0.1
         ports:
         - containerPort: 80
         env:
