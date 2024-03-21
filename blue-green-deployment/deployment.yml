@@ -2,9 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend-green-deployment
-  labels:
-    app: frontend
-    color: green
 spec:
   replicas: 1
   selector:
@@ -22,3 +19,4 @@ spec:
         image: docker.io/dinesh10275/dev-frontend:v1.0
         ports:
         - containerPort: 80
+
