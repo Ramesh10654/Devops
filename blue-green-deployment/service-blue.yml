@@ -1,20 +1,3 @@
-# frontend-blue-service.yaml
-apiVersion: v1
-kind: Service
-metadata:
-  name: frontend-blue
-  namespace: argo-rollouts
-spec:
-  selector:
-    app: frontend
-    color: blue
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: NodePort
-
-# frontend-green-service.yaml
 apiVersion: v1
 kind: Service
 metadata:
