@@ -4,16 +4,16 @@ metadata:
   name: blue-frontend
   namespace: argo-rollouts
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: frontend
-      color: blue
+      color: blue  # Match labels with the blue version
   template:
     metadata:
       labels:
         app: frontend
-        color: blue
+        color: blue  # Set labels for the blue version
     spec:
       containers:
       - name: frontend
