@@ -21,4 +21,7 @@ spec:
         ports:
         - containerPort: 80
         # Add livenessProbe and readinessProbe if needed
-
+  strategy:
+    blueGreen:
+      activeService: frontend-blue
+      previewService: frontend-green
