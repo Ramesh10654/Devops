@@ -1,14 +1,14 @@
-apiVersion: v1
 kind: Service
+apiVersion: v1
 metadata:
-  name: frontend-blue
-  namespace: argo-rollouts
+  name: rollout-bluegreen-preview
+  namespace: argo-rollouts  # Update to your desired namespace
 spec:
   selector:
-    app: frontend
-    color: blue
+    app: rollout-bluegreen
   ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-  type: NodePort
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+    nodePort: 30009  # Specify the desired NodePort here
+
