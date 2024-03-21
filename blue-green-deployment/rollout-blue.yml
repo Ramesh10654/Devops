@@ -24,4 +24,4 @@ spec:
   strategy:
     blueGreen:
       activeService: frontend-blue
-      previewService: frontend-green
+      previewService: frontend-blue  # Same service for preview and active initially
