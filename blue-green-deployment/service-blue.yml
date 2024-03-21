@@ -6,7 +6,7 @@ metadata:
 spec:
   selector:
     app: frontend
-    color: blue
+    color: blue  # Match the labels with the pods it selects
   ports:
   - protocol: TCP
     port: 80
