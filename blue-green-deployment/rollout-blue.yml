@@ -23,4 +23,5 @@ spec:
   strategy:
     blueGreen:
       activeService: frontend-blue
-      previewService: frontend-green
+      previewService: frontend-green  # Make sure this matches the name of the service
+
