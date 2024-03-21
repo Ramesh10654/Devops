@@ -1,27 +1,29 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: frontend-rollout
-  namespace: argo-rollouts
+  name: rollout-bluegreen
+  namespace: argo-rollouts  # Update to your desired namespace
 spec:
-  replicas: 1
+  replicas: 2
+  revisionHistoryLimit: 2
   selector:
     matchLabels:
-      app: frontend
-      color: blue
+      app: rollout-bluegreen
   template:
     metadata:
       labels:
-        app: frontend
-        color: blue
+        app: rollout-bluegreen
     spec:
       containers:
-      - name: frontend
-        image: docker.io/dinesh10275/dev-frontend:v1.0
+      - name: rollouts-demo
+        image: docker.io/dinesh10275/dev-frontend:v1.0  # Update to your image and tag
+        imagePullPolicy: Always
         ports:
-        - containerPort: 80
+        - containerPort: 8080
   strategy:
-    blueGreen:
-      activeService: frontend-blue
-      previewService: frontend-green
+    blueGreen: 
+      activeService: rollout-bluegreen-active
+      previewService: rollout-bluegreen-preview
+      autoPromotionEnabled: false
+
 
