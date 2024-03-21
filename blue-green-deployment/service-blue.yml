@@ -6,10 +6,8 @@ metadata:
 spec:
   selector:
     app: frontend
-    color: blue  # Match labels with the blue version
+    color: blue
   ports:
   - protocol: TCP
     port: 80
     targetPort: 80
-  type: NodePort
-
