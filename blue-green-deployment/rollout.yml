@@ -1,0 +1,24 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: blue-frontend
+  namespace: argo-rollouts
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+      color: blue
+  template:
+    metadata:
+      labels:
+        app: frontend
+        color: blue
+    spec:
+      containers:
+      - name: frontend
+        image: docker.io/dinesh10275/dev-frontend:v1.0
+        ports:
+        - containerPort: 80
+        # Add livenessProbe and readinessProbe if needed
+
