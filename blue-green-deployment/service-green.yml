@@ -6,12 +6,9 @@ metadata:
 spec:
   selector:
     app: frontend
-    color: green  # Match the labels with the pods it selects
-  ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 80
-  type: NodePort
-  selector:
-    app: frontend
     color: green
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  type: NodePort
