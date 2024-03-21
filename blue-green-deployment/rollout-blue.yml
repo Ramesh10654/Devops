@@ -1,23 +1,26 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: example-bluegreen
+  name: frontend-rollout
+  namespace: argo-rollouts
 spec:
-  replicas: 3
-  strategy:
-    blueGreen:
-      activeService: bluegreen-active
-      previewService: bluegreen-preview
+  replicas: 1
   selector:
     matchLabels:
-      app: example
+      app: frontend
+      color: blue
   template:
     metadata:
       labels:
-        app: example
+        app: frontend
+        color: blue
     spec:
       containers:
-      - name: example
-        image: docker.io/dinesh10275/dev-frontend:v1.0.1
+      - name: frontend
+        image: docker.io/dinesh10275/dev-frontend:v1.0
         ports:
         - containerPort: 80
+  strategy:
+    blueGreen:
+      activeService: frontend-blue
+      previewService: frontend-green
