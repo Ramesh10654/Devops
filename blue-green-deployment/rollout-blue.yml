@@ -17,11 +17,11 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: docker.io/thetym/dev-frontend:v1.0
+        image: docker.io/dinesh10275/dev-frontend:v1.0
         ports:
         - containerPort: 80
         # Add livenessProbe and readinessProbe if needed
   strategy:
     blueGreen:
       activeService: frontend-blue
-      previewService: frontend-blue  # Same service for preview and active initially
+      previewService: frontend-green
