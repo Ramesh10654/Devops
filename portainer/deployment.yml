@@ -19,7 +19,7 @@ spec:
           path: /var/run/docker.sock
       containers:
       - name: portainer
-        image: portainer/portainer-ce:latest
+        image: portainer/portainer-ce:2.20.0
         ports:
         - containerPort: 9000
         volumeMounts:
