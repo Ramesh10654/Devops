@@ -1,0 +1,2313 @@
+.desktop-8,
+.desktop-8 * {
+  box-sizing: border-box;
+}
+.desktop-8 {
+  background: #ffffff;
+  height: 5111px;
+  position: relative;
+  overflow: hidden;
+}
+.desktop-8 .rectangle-17948 {
+  background: #fdf4c6;
+  border-radius: 4px;
+  width: 108.04px;
+  height: 109.58px;
+  position: absolute;
+  left: -78px;
+  top: 3133px;
+}
+.desktop-8 .rectangle-17960 {
+  background: #fdf4c6;
+  border-radius: 4px;
+  width: 108.04px;
+  height: 109.58px;
+  position: absolute;
+  left: 1282px;
+  top: 2633px;
+}
+.desktop-8 .rectangle-17949 {
+  width: 108.04px;
+  height: 109.58px;
+  position: absolute;
+  left: 40px;
+  top: 3133.58px;
+  overflow: visible;
+}
+.desktop-8 .rectangle-17961 {
+  width: 108.04px;
+  height: 109.58px;
+  position: absolute;
+  left: 1400px;
+  top: 2633.58px;
+  overflow: visible;
+}
+.desktop-8 .rectangle-17955 {
+  width: 108.04px;
+  height: 109.58px;
+  position: absolute;
+  left: 40px;
+  top: 3253.17px;
+  overflow: visible;
+}
+.desktop-8 .ellipse-1927 {
+  background: #8558b2;
+  border-radius: 50%;
+  width: 649px;
+  height: 649px;
+  position: absolute;
+  left: -597px;
+  top: 55px;
+  filter: blur(250px);
+}
+.desktop-8 .ellipse-1926 {
+  background: #a0d2ea;
+  border-radius: 50%;
+  width: 649px;
+  height: 649px;
+  position: absolute;
+  left: 1121px;
+  top: 458px;
+  filter: blur(250px);
+}
+.desktop-8 .navication {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 165px;
+  top: 35px;
+}
+.desktop-8 .group-15681 {
+  flex-shrink: 0;
+  width: 121px;
+  height: 33.88px;
+  position: static;
+}
+.desktop-8 .rectangle-17689 {
+  width: 121px;
+  height: 33.88px;
+  position: absolute;
+  left: 0px;
+  top: 3.06px;
+}
+.desktop-8 .vector {
+  width: 1.42%;
+  height: 66.55%;
+  position: absolute;
+  right: 96.51%;
+  left: 2.07%;
+  bottom: 10.68%;
+  top: 22.77%;
+  overflow: visible;
+}
+.desktop-8 .vector2 {
+  width: 1.42%;
+  height: 66.55%;
+  position: absolute;
+  right: 98.15%;
+  left: 0.44%;
+  bottom: 10.68%;
+  top: 22.77%;
+  overflow: visible;
+}
+.desktop-8 .text {
+  width: 7.06%;
+  height: 49.67%;
+  position: absolute;
+  right: 89.45%;
+  left: 3.49%;
+  bottom: 12.43%;
+  top: 37.9%;
+  overflow: visible;
+}
+.desktop-8 .frame-15686 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15681 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .solution {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-8 .frame-15682 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .features {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-8 .frame-15683 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .resource {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-8 .pricing {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .request-a-demo {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15688 {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-156832 {
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+.desktop-8 .log-in {
+  color: #0072ff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-14742 {
+  background: #0072ff;
+  border-radius: 4px;
+  padding: 0px 12px 0px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 40px;
+  position: relative;
+}
+.desktop-8 .get-started {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .unlock-your-potential-with-intuitive-simple-project-management {
+  text-align: center;
+  font-family: "Roboto-ExtraBold", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  position: absolute;
+  left: calc(50% - 334px);
+  top: 203px;
+  width: 668px;
+}
+.unlock-your-potential-with-intuitive-simple-project-management-span {
+  color: #000000;
+  font-family: "Roboto-ExtraBold", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.unlock-your-potential-with-intuitive-simple-project-management-span2 {
+  color: #fff500;
+  font-family: "Roboto-ExtraBold", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.unlock-your-potential-with-intuitive-simple-project-management-span3 {
+  color: #000000;
+  font-family: "Roboto-ExtraBold", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.desktop-8
+  .guide-tasks-from-inception-to-fruition-fostering-seamless-collaboration-across-teams-and-ensuring-timely-achievement-of-distinctive-goals {
+  color: #333333;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 270px);
+  top: 321px;
+  width: 541px;
+}
+.desktop-8 .group-15711 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .frame-15690 {
+  background: #fff500;
+  border-radius: 4px;
+  padding: 2px 4px 2px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 403px;
+  top: 176px;
+}
+.desktop-8 .new {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+}
+.desktop-8 .image-16 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 370px;
+  top: 143px;
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+.desktop-8 .group-15707 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .rectangle-17959 {
+  background: linear-gradient(
+    180deg,
+    rgba(160, 210, 234, 0.12) 0%,
+    rgba(133, 88, 179, 0.08) 100%
+  );
+  width: 1441px;
+  height: 655px;
+  position: absolute;
+  left: 0px;
+  top: 3438px;
+}
+.desktop-8 .rectangle-179602 {
+  background: #000000;
+  width: 1441px;
+  height: 655px;
+  position: absolute;
+  left: 0px;
+  top: 1858px;
+}
+.desktop-8 .frame-15714 {
+  display: flex;
+  flex-direction: row;
+  gap: 177px;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  left: calc(50% - 554px);
+  top: 3484px;
+}
+.desktop-8 .frame-15712 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15711 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15715 {
+  background: #fff500;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .features2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8
+  .promote-team-responsibility-by-consolidating-projects-and-tasks-in-a-singular-hub-offer-every-team-member-clear-visibility-into-their-designated-duties-and-the-distinct-steps-necessary-to-achieve-them {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  width: 483px;
+}
+.desktop-8
+  .ensure-accountability-by-providing-each-team-member-with-transparent-access-to-their-assigned-tasks-and-project-progress {
+  color: #707070;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 354px;
+}
+.desktop-8 .frame-15713 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .photo-frame {
+  flex-shrink: 0;
+  width: 691.38px;
+  height: 595px;
+  position: relative;
+  overflow: visible;
+}
+.desktop-8 .ellipse-1928 {
+  background: #f6d3f9;
+  border-radius: 50%;
+  width: 131.19px;
+  height: 131.19px;
+  position: absolute;
+  left: 1377px;
+  top: 2750px;
+}
+.desktop-8 .frame-157112 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 802px);
+  top: 271px;
+}
+.desktop-8 .image-15 {
+  flex-shrink: 0;
+  width: 1604px;
+  height: 910px;
+  position: relative;
+  mix-blend-mode: multiply;
+  object-fit: cover;
+}
+.desktop-8 .tasks {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  position: absolute;
+  left: 1407px;
+  top: 765px;
+}
+.desktop-8 .image-12 {
+  flex-shrink: 0;
+  width: 914px;
+  height: 244px;
+  position: absolute;
+  left: 360.27px;
+  top: 91px;
+  transform-origin: 0 0;
+  transform: rotate(29.261deg) scale(1, 1);
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+.desktop-8 .image-13 {
+  flex-shrink: 0;
+  width: 837.63px;
+  height: 223.61px;
+  position: absolute;
+  left: 1171.89px;
+  top: 48.56px;
+  transform-origin: 0 0;
+  transform: rotate(25.453deg) scale(-1, 1);
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+.desktop-8 .image-9 {
+  border-radius: 1000px;
+  flex-shrink: 0;
+  width: 831px;
+  height: 554px;
+  position: absolute;
+  left: 449px;
+  top: 215px;
+  object-fit: cover;
+}
+.desktop-8 .frame-15665-1 {
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 210px;
+  height: 120px;
+  position: absolute;
+  left: 1181px;
+  top: 372px;
+  overflow: visible;
+}
+.desktop-8 .ststus-1 {
+  border-radius: 13px;
+  flex-shrink: 0;
+  width: 438px;
+  height: 121px;
+  position: absolute;
+  left: 991px;
+  top: 228px;
+  overflow: hidden;
+}
+.desktop-8 .group {
+  width: 93.92%;
+  height: 77.98%;
+  position: absolute;
+  right: 3.04%;
+  left: 3.04%;
+  bottom: 11.01%;
+  top: 11.01%;
+  overflow: visible;
+}
+.desktop-8 .vector3 {
+  width: 14.9%;
+  height: 7.34%;
+  position: absolute;
+  right: 79.5%;
+  left: 5.6%;
+  bottom: 70.26%;
+  top: 22.41%;
+  overflow: visible;
+}
+.desktop-8 .vector4 {
+  width: 3.51%;
+  height: 4.65%;
+  position: absolute;
+  right: 81.97%;
+  left: 14.52%;
+  bottom: 55.44%;
+  top: 39.91%;
+  overflow: visible;
+}
+.desktop-8 .vector5 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 79.68%;
+  left: 12.22%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector6 {
+  width: 1.85%;
+  height: 4.72%;
+  position: absolute;
+  right: 82.81%;
+  left: 15.34%;
+  bottom: 32.51%;
+  top: 62.77%;
+  overflow: visible;
+}
+.desktop-8 .vector7 {
+  width: 8.58%;
+  height: 6.13%;
+  position: absolute;
+  right: 57.18%;
+  left: 34.24%;
+  bottom: 53.96%;
+  top: 39.91%;
+  overflow: visible;
+}
+.desktop-8 .vector8 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 57.53%;
+  left: 34.37%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector9 {
+  width: 1.77%;
+  height: 4.65%;
+  position: absolute;
+  right: 60.67%;
+  left: 37.56%;
+  bottom: 32.57%;
+  top: 62.78%;
+  overflow: visible;
+}
+.desktop-8 .vector10 {
+  width: 5.6%;
+  height: 4.79%;
+  position: absolute;
+  right: 36.49%;
+  left: 57.91%;
+  bottom: 55.44%;
+  top: 39.77%;
+  overflow: visible;
+}
+.desktop-8 .vector11 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 35.25%;
+  left: 56.65%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector12 {
+  width: 1.85%;
+  height: 4.71%;
+  position: absolute;
+  right: 38.39%;
+  left: 59.76%;
+  bottom: 32.51%;
+  top: 62.78%;
+  overflow: visible;
+}
+.desktop-8 .vector13 {
+  width: 8.8%;
+  height: 6.42%;
+  position: absolute;
+  right: 12.58%;
+  left: 78.61%;
+  bottom: 53.97%;
+  top: 39.62%;
+  overflow: visible;
+}
+.desktop-8 .vector14 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 12.97%;
+  left: 78.92%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector15 {
+  width: 1.81%;
+  height: 4.65%;
+  position: absolute;
+  right: 16.11%;
+  left: 82.07%;
+  bottom: 32.51%;
+  top: 62.85%;
+  overflow: visible;
+}
+.desktop-8 .list-1 {
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 431px;
+  height: 155px;
+  position: absolute;
+  left: 212px;
+  top: 402px;
+  overflow: hidden;
+}
+.desktop-8 .group2 {
+  width: 95.94%;
+  height: 88.71%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 5.65%;
+  top: 5.65%;
+  overflow: visible;
+}
+.desktop-8 .vector16 {
+  width: 5.79%;
+  height: 3.76%;
+  position: absolute;
+  right: 90.36%;
+  left: 3.85%;
+  bottom: 84.74%;
+  top: 11.49%;
+  overflow: visible;
+}
+.desktop-8 .vector17 {
+  width: 4.14%;
+  height: 2.53%;
+  position: absolute;
+  right: 3.82%;
+  left: 92.03%;
+  bottom: 85.61%;
+  top: 11.85%;
+  overflow: visible;
+}
+.desktop-8 .vector18 {
+  width: 95.94%;
+  height: 0%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 72.47%;
+  top: 27.53%;
+  overflow: visible;
+}
+.desktop-8 .vector19 {
+  width: 95.94%;
+  height: 0%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 62.24%;
+  top: 37.76%;
+  overflow: visible;
+}
+.desktop-8 .vector20 {
+  width: 95.94%;
+  height: 0.24%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 51.76%;
+  top: 48%;
+  overflow: visible;
+}
+.desktop-8 .vector21 {
+  width: 95.94%;
+  height: 0.24%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 41.41%;
+  top: 58.35%;
+  overflow: visible;
+}
+.desktop-8 .vector22 {
+  width: 95.94%;
+  height: 0.24%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 31.06%;
+  top: 68.71%;
+  overflow: visible;
+}
+.desktop-8 .vector23 {
+  width: 95.94%;
+  height: 0.24%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 20.71%;
+  top: 79.06%;
+  overflow: visible;
+}
+.desktop-8 .vector24 {
+  width: 95.94%;
+  height: 0.24%;
+  position: absolute;
+  right: 2.03%;
+  left: 2.03%;
+  bottom: 10.35%;
+  top: 89.41%;
+  overflow: visible;
+}
+.desktop-8 .vector25 {
+  width: 4.06%;
+  height: 2.54%;
+  position: absolute;
+  right: 91.18%;
+  left: 4.76%;
+  bottom: 65.85%;
+  top: 31.61%;
+  overflow: visible;
+}
+.desktop-8 .vector26 {
+  width: 4.38%;
+  height: 2.42%;
+  position: absolute;
+  right: 90.78%;
+  left: 4.84%;
+  bottom: 55.73%;
+  top: 41.85%;
+  overflow: visible;
+}
+.desktop-8 .vector27 {
+  width: 4.57%;
+  height: 2.42%;
+  position: absolute;
+  right: 90.58%;
+  left: 4.84%;
+  bottom: 45.38%;
+  top: 52.2%;
+  overflow: visible;
+}
+.desktop-8 .vector28 {
+  width: 4.57%;
+  height: 2.42%;
+  position: absolute;
+  right: 90.59%;
+  left: 4.84%;
+  bottom: 35.03%;
+  top: 62.55%;
+  overflow: visible;
+}
+.desktop-8 .vector29 {
+  width: 4.61%;
+  height: 2.42%;
+  position: absolute;
+  right: 90.54%;
+  left: 4.84%;
+  bottom: 24.67%;
+  top: 72.91%;
+  overflow: visible;
+}
+.desktop-8 .vector30 {
+  width: 4.57%;
+  height: 2.42%;
+  position: absolute;
+  right: 90.59%;
+  left: 4.84%;
+  bottom: 14.32%;
+  top: 83.26%;
+  overflow: visible;
+}
+.desktop-8 .vector31 {
+  width: 3.26%;
+  height: 2.38%;
+  position: absolute;
+  right: 77.42%;
+  left: 19.32%;
+  bottom: 65.85%;
+  top: 31.77%;
+  overflow: visible;
+}
+.desktop-8 .vector32 {
+  width: 10.41%;
+  height: 2.45%;
+  position: absolute;
+  right: 70.27%;
+  left: 19.32%;
+  bottom: 55.73%;
+  top: 41.81%;
+  overflow: visible;
+}
+.desktop-8 .vector33 {
+  width: 17.23%;
+  height: 3.29%;
+  position: absolute;
+  right: 63.57%;
+  left: 19.2%;
+  bottom: 44.62%;
+  top: 52.09%;
+  overflow: visible;
+}
+.desktop-8 .vector34 {
+  width: 10.41%;
+  height: 2.45%;
+  position: absolute;
+  right: 70.27%;
+  left: 19.32%;
+  bottom: 35.03%;
+  top: 62.52%;
+  overflow: visible;
+}
+.desktop-8 .vector35 {
+  width: 10.41%;
+  height: 2.45%;
+  position: absolute;
+  right: 70.27%;
+  left: 19.32%;
+  bottom: 24.67%;
+  top: 72.87%;
+  overflow: visible;
+}
+.desktop-8 .vector36 {
+  width: 10.41%;
+  height: 2.45%;
+  position: absolute;
+  right: 70.27%;
+  left: 19.32%;
+  bottom: 14.32%;
+  top: 83.22%;
+  overflow: visible;
+}
+.desktop-8 .vector37 {
+  width: 3.89%;
+  height: 3.25%;
+  position: absolute;
+  right: 42.28%;
+  left: 53.83%;
+  bottom: 65.09%;
+  top: 31.66%;
+  overflow: visible;
+}
+.desktop-8 .vector38 {
+  width: 5.45%;
+  height: 3.29%;
+  position: absolute;
+  right: 40.71%;
+  left: 53.84%;
+  bottom: 54.97%;
+  top: 41.73%;
+  overflow: visible;
+}
+.desktop-8 .vector39 {
+  width: 13.09%;
+  height: 3.21%;
+  position: absolute;
+  right: 33.12%;
+  left: 53.79%;
+  bottom: 44.62%;
+  top: 52.17%;
+  overflow: visible;
+}
+.desktop-8 .vector40 {
+  width: 8.39%;
+  height: 3.29%;
+  position: absolute;
+  right: 37.87%;
+  left: 53.74%;
+  bottom: 34.27%;
+  top: 62.44%;
+  overflow: visible;
+}
+.desktop-8 .vector41 {
+  width: 8.39%;
+  height: 3.29%;
+  position: absolute;
+  right: 37.87%;
+  left: 53.74%;
+  bottom: 23.91%;
+  top: 72.79%;
+  overflow: visible;
+}
+.desktop-8 .vector42 {
+  width: 8.39%;
+  height: 3.29%;
+  position: absolute;
+  right: 37.87%;
+  left: 53.74%;
+  bottom: 13.56%;
+  top: 83.14%;
+  overflow: visible;
+}
+.desktop-8 .vector43 {
+  width: 4.13%;
+  height: 3.25%;
+  position: absolute;
+  right: 19.2%;
+  left: 76.68%;
+  bottom: 65.09%;
+  top: 31.66%;
+  overflow: visible;
+}
+.desktop-8 .vector44 {
+  width: 1.1%;
+  height: 3.06%;
+  position: absolute;
+  right: 22.21%;
+  left: 76.69%;
+  bottom: 55.53%;
+  top: 41.41%;
+  overflow: visible;
+}
+.desktop-8 .vector45 {
+  width: 2.12%;
+  height: 2.38%;
+  position: absolute;
+  right: 19.17%;
+  left: 78.71%;
+  bottom: 55.73%;
+  top: 41.88%;
+  overflow: visible;
+}
+.desktop-8 .vector46 {
+  width: 1.1%;
+  height: 3.06%;
+  position: absolute;
+  right: 22.21%;
+  left: 76.69%;
+  bottom: 45.18%;
+  top: 51.76%;
+  overflow: visible;
+}
+.desktop-8 .vector47 {
+  width: 4.37%;
+  height: 2.54%;
+  position: absolute;
+  right: 16.92%;
+  left: 78.71%;
+  bottom: 45.38%;
+  top: 52.09%;
+  overflow: visible;
+}
+.desktop-8 .vector48 {
+  width: 1.1%;
+  height: 3.06%;
+  position: absolute;
+  right: 22.21%;
+  left: 76.69%;
+  bottom: 34.82%;
+  top: 62.12%;
+  overflow: visible;
+}
+.desktop-8 .vector49 {
+  width: 2.12%;
+  height: 2.38%;
+  position: absolute;
+  right: 19.17%;
+  left: 78.71%;
+  bottom: 35.03%;
+  top: 62.59%;
+  overflow: visible;
+}
+.desktop-8 .vector50 {
+  width: 1.1%;
+  height: 3.06%;
+  position: absolute;
+  right: 22.21%;
+  left: 76.69%;
+  bottom: 24.47%;
+  top: 72.47%;
+  overflow: visible;
+}
+.desktop-8 .vector51 {
+  width: 2.33%;
+  height: 3.29%;
+  position: absolute;
+  right: 18.96%;
+  left: 78.71%;
+  bottom: 23.91%;
+  top: 72.79%;
+  overflow: visible;
+}
+.desktop-8 .vector52 {
+  width: 1.1%;
+  height: 3.06%;
+  position: absolute;
+  right: 22.21%;
+  left: 76.69%;
+  bottom: 14.12%;
+  top: 82.82%;
+  overflow: visible;
+}
+.desktop-8 .vector53 {
+  width: 2.12%;
+  height: 2.38%;
+  position: absolute;
+  right: 19.17%;
+  left: 78.71%;
+  bottom: 14.32%;
+  top: 83.3%;
+  overflow: visible;
+}
+.desktop-8 .vector54 {
+  width: 3.33%;
+  height: 3.3%;
+  position: absolute;
+  right: 91.58%;
+  left: 5.09%;
+  bottom: 74.5%;
+  top: 22.2%;
+  overflow: visible;
+}
+.desktop-8 .vector55 {
+  width: 6.09%;
+  height: 0%;
+  position: absolute;
+  right: 90.19%;
+  left: 3.72%;
+  bottom: 72.59%;
+  top: 27.41%;
+  overflow: visible;
+}
+.desktop-8 .vector56 {
+  width: 5.5%;
+  height: 3.21%;
+  position: absolute;
+  right: 83.22%;
+  left: 11.27%;
+  bottom: 74.5%;
+  top: 22.28%;
+  overflow: visible;
+}
+.desktop-8 .projects {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Black", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  position: absolute;
+  left: 108px;
+  top: 177px;
+}
+.desktop-8 .frame-15721 {
+  background: linear-gradient(
+    180deg,
+    rgba(160, 210, 234, 0.12) 0%,
+    rgba(133, 88, 179, 0.22) 100%
+  );
+  width: 1489px;
+  height: 631px;
+  position: absolute;
+  left: calc(50% - 745px);
+  top: 4182px;
+  overflow: hidden;
+}
+.desktop-8 .group-15701 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .frame-15719 {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 494.75px;
+  top: 48px;
+}
+.desktop-8 .frame-15700 {
+  background: #fff500;
+  border-radius: 30px;
+  padding: 10px 32px 10px 32px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .contact-us {
+  color: #333333;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15716 {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .scale-faster-and-more-predictably-with-projectile {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-8 .frame-15718 {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8
+  .teams-who-have-streamilined-the-way-they-manage-projects-and-collaborate-remotely {
+  color: #333333;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15717 {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15698 {
+  flex-shrink: 0;
+  width: 207px;
+  height: 59px;
+  position: static;
+}
+.desktop-8 .rectangle-17964 {
+  background: #333333;
+  border-radius: 4px;
+  width: 207px;
+  height: 59px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.desktop-8 .get-started-now {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  left: 37px;
+  top: 20px;
+}
+.desktop-8 .group-15699 {
+  flex-shrink: 0;
+  width: 207px;
+  height: 59px;
+  position: static;
+}
+.desktop-8 .rectangle-179642 {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 207px;
+  height: 59px;
+  position: absolute;
+  left: 230px;
+  top: 0px;
+}
+.desktop-8 .request-free-demo {
+  color: #333333;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 264px;
+  top: 20px;
+}
+.desktop-8 .frame-15689-1 {
+  border-radius: 21px;
+  width: 203.86px;
+  height: 178.56px;
+  position: absolute;
+  left: 1048px;
+  top: 34px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.desktop-8 .frame-15665-2 {
+  border-radius: 20px;
+  width: 320px;
+  height: 183px;
+  position: absolute;
+  left: -43px;
+  top: 300px;
+  overflow: visible;
+}
+.desktop-8 .image-17 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  left: 448px;
+  top: 94px;
+  mix-blend-mode: darken;
+  object-fit: cover;
+}
+.desktop-8 .frame-15733 {
+  background: #000000;
+  width: 1440px;
+  height: 398px;
+  position: absolute;
+  left: 0px;
+  top: 4713px;
+}
+.desktop-8 .copyright-the-tym-all-right-reserved-your-privacy-terms {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 42px;
+  top: 364px;
+}
+.desktop-8 .frame-15732 {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 352px;
+  top: 45px;
+}
+.desktop-8 .frame-15731 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .the-tym {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15722 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .home {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .projects2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .pricing2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .starter {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .status {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15724 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .features3 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15723 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .docs {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .integrations {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .automations {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .files {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .dashboards {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15726 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .use-cases {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15725 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .marketing {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .project {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .management {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .developers {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15728 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .company {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15727 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .about {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .emergency-responce {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .the-tym2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .frame-15730 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .resources {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8 .frame-15729 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .help-center {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .forum {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .app-directory {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .events {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .accessibility {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .partners {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+}
+.desktop-8 .group-15682 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .rectangle-176892 {
+  width: 121px;
+  height: 33.88px;
+  position: absolute;
+  left: 31px;
+  top: 45px;
+}
+.desktop-8 .vector57 {
+  width: 1.09%;
+  height: 6.69%;
+  position: absolute;
+  right: 95.16%;
+  left: 3.75%;
+  bottom: 80.48%;
+  top: 12.83%;
+  overflow: visible;
+}
+.desktop-8 .vector58 {
+  width: 1.09%;
+  height: 6.69%;
+  position: absolute;
+  right: 96.42%;
+  left: 2.49%;
+  bottom: 80.48%;
+  top: 12.83%;
+  overflow: visible;
+}
+.desktop-8 .text2 {
+  width: 5.45%;
+  height: 4.99%;
+  position: absolute;
+  right: 89.71%;
+  left: 4.84%;
+  bottom: 80.66%;
+  top: 14.35%;
+  overflow: visible;
+}
+.desktop-8 .frame-15737 {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 554px);
+  top: 2628px;
+}
+.desktop-8 .frame-15710 {
+  display: flex;
+  flex-direction: column;
+  gap: 69px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15709 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .increase-productivity-with-the-tym {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+}
+.desktop-8
+  .the-project-management-designed-to-enhance-efficiency-and-output-in-various-tasks-and-activities-it-implies-that-by-using-the-tymapp-users-can-expect-to-achieve-more-in-less-time-streamline-their-workflows-and-optimize-their-overall-productivity-levels-this-line-serves-as-a-concise-and-compelling-invitation-to-explore-how-tym-can-help-individuals-and-teams-accomplish-their-goals-more-effectively {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 1032px;
+}
+.desktop-8 .frame-15708 {
+  display: flex;
+  flex-direction: row;
+  gap: 139px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15699 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15693 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .rectangle-17956 {
+  background: #e7ecf7;
+  border-radius: 4px;
+  width: 164px;
+  height: 164px;
+  position: absolute;
+  left: calc(50% - 82px);
+  top: 0px;
+}
+.desktop-8 .undraw-accept-tasks-re-09-mv-1 {
+  width: 124px;
+  height: 109px;
+  position: absolute;
+  left: 76.5px;
+  top: 28px;
+  overflow: visible;
+}
+.desktop-8 .group-15686 {
+  flex-shrink: 0;
+  width: 277px;
+  height: 60px;
+  position: static;
+}
+.desktop-8 .frame-15698 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 172px;
+}
+.desktop-8 .project2 {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.desktop-8
+  .unlock-seamless-project-achieve-key-results-and-collaborate-effectively {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 277px;
+}
+.desktop-8 .frame-15701 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15692 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .undraw-grades-re-j-7-d-6-1 {
+  width: 134px;
+  height: 72px;
+  position: absolute;
+  left: 71.5px;
+  top: 46px;
+  overflow: visible;
+}
+.desktop-8 .frame-157002 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .task {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.desktop-8
+  .slice-tasks-into-manageable-bits-each-with-clear-owners-and-due-dates {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 277px;
+}
+.desktop-8 .frame-15707 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15696 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-15695 {
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-15690 {
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-15691 {
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-15694 {
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .undraw-events-re-98-ue-1 {
+  width: 136px;
+  height: 102px;
+  position: absolute;
+  left: 70.5px;
+  top: 31px;
+  overflow: visible;
+}
+.desktop-8 .frame-15703 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .calendar {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8
+  .let-s-sync-our-calendars-to-find-a-convenient-time-for-our-weekly-check-in-meeting {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 277px;
+}
+.desktop-8 .frame-15736 {
+  display: flex;
+  flex-direction: row;
+  gap: 139px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .frame-15734 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15703 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-15702 {
+  width: 41.11%;
+  height: 45.94%;
+  position: absolute;
+  right: 29.47%;
+  left: 29.42%;
+  bottom: 41.56%;
+  top: 12.5%;
+  overflow: visible;
+}
+.desktop-8 .reports {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.desktop-8 .the-reports-page-offers-brief-task-summaries-and-vital-metrics {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 277px;
+}
+.desktop-8 .frame-15735 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.desktop-8 .group-15704 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .group-156922 {
+  width: 164px;
+  height: 164px;
+  position: static;
+}
+.desktop-8 .undraw-project-completed-re-jr-7-u-1 {
+  width: 139px;
+  height: 103px;
+  position: absolute;
+  left: 68.5px;
+  top: 31px;
+  overflow: visible;
+}
+.desktop-8 .my-task {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+}
+.desktop-8
+  .centralize-task-access-for-efficient-prioritization-and-streamlined-productivity {
+  color: #707070;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 277px;
+}
+.desktop-8 .group-15705 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .frame-157122 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 168px;
+  top: 2074px;
+}
+.desktop-8 .features4 {
+  color: #333333;
+  text-align: center;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+}
+.desktop-8
+  .effortlessly-track-project-milestones-monitor-team-progress-and-analyze-key-metrics-with-our-comprehensive-reports-feature-gain-valuable-insights-to-optimize-performance-and-drive-project-success {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  width: 483px;
+}
+.desktop-8
+  .empowering-users-with-valuable-insights-for-informed-decision-making-and-enhanced-productivity {
+  color: #707070;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  width: 354px;
+}
+.desktop-8 .group-15708 {
+  width: 545px;
+  height: 545px;
+  position: static;
+}
+.desktop-8 .rectangle-17966 {
+  width: 545px;
+  height: 545px;
+  position: absolute;
+  left: 895px;
+  top: 1913px;
+  overflow: visible;
+}
+.desktop-8 .frame-15665-22 {
+  border-radius: 10px;
+  width: 210px;
+  height: 120px;
+  position: absolute;
+  left: 1188px;
+  top: 2275px;
+  overflow: visible;
+}
+.desktop-8 .ststus-2 {
+  border-radius: 13px;
+  width: 438px;
+  height: 121px;
+  position: absolute;
+  left: 968px;
+  top: 2081px;
+  overflow: hidden;
+}
+.desktop-8 .group3 {
+  width: 93.92%;
+  height: 77.98%;
+  position: absolute;
+  right: 3.04%;
+  left: 3.04%;
+  bottom: 11.01%;
+  top: 11.01%;
+  overflow: visible;
+}
+.desktop-8 .vector59 {
+  width: 14.9%;
+  height: 7.34%;
+  position: absolute;
+  right: 79.5%;
+  left: 5.6%;
+  bottom: 70.26%;
+  top: 22.41%;
+  overflow: visible;
+}
+.desktop-8 .vector60 {
+  width: 3.51%;
+  height: 4.65%;
+  position: absolute;
+  right: 81.97%;
+  left: 14.52%;
+  bottom: 55.44%;
+  top: 39.91%;
+  overflow: visible;
+}
+.desktop-8 .vector61 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 79.68%;
+  left: 12.22%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector62 {
+  width: 1.85%;
+  height: 4.72%;
+  position: absolute;
+  right: 82.81%;
+  left: 15.34%;
+  bottom: 32.51%;
+  top: 62.77%;
+  overflow: visible;
+}
+.desktop-8 .vector63 {
+  width: 8.58%;
+  height: 6.13%;
+  position: absolute;
+  right: 57.18%;
+  left: 34.24%;
+  bottom: 53.96%;
+  top: 39.91%;
+  overflow: visible;
+}
+.desktop-8 .vector64 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 57.53%;
+  left: 34.37%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector65 {
+  width: 1.77%;
+  height: 4.65%;
+  position: absolute;
+  right: 60.67%;
+  left: 37.56%;
+  bottom: 32.57%;
+  top: 62.78%;
+  overflow: visible;
+}
+.desktop-8 .vector66 {
+  width: 5.6%;
+  height: 4.79%;
+  position: absolute;
+  right: 36.49%;
+  left: 57.91%;
+  bottom: 55.44%;
+  top: 39.77%;
+  overflow: visible;
+}
+.desktop-8 .vector67 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 35.25%;
+  left: 56.65%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector68 {
+  width: 1.85%;
+  height: 4.71%;
+  position: absolute;
+  right: 38.39%;
+  left: 59.76%;
+  bottom: 32.51%;
+  top: 62.78%;
+  overflow: visible;
+}
+.desktop-8 .vector69 {
+  width: 8.8%;
+  height: 6.42%;
+  position: absolute;
+  right: 12.58%;
+  left: 78.61%;
+  bottom: 53.97%;
+  top: 39.62%;
+  overflow: visible;
+}
+.desktop-8 .vector70 {
+  width: 8.1%;
+  height: 29.36%;
+  position: absolute;
+  right: 12.97%;
+  left: 78.92%;
+  bottom: 20.41%;
+  top: 50.23%;
+  overflow: visible;
+}
+.desktop-8 .vector71 {
+  width: 1.81%;
+  height: 4.65%;
+  position: absolute;
+  right: 16.11%;
+  left: 82.07%;
+  bottom: 32.51%;
+  top: 62.85%;
+  overflow: visible;
+}
+.desktop-8 .frame-15689-12 {
+  border-radius: 21px;
+  width: 166px;
+  height: 145px;
+  position: absolute;
+  left: 968px;
+  top: 2262px;
+  transform: translate(0px, 0px);
+  overflow: visible;
+}
+.desktop-8 .group-15709 {
+  position: absolute;
+  inset: 0;
+}
+.desktop-8 .group-15706 {
+  width: 1442px;
+  height: 545px;
+  position: static;
+}
+.desktop-8 .rectangle-17967 {
+  width: 545px;
+  height: 545px;
+  position: absolute;
+  left: -2px;
+  top: 1255px;
+  overflow: visible;
+}
+.desktop-8 .frame-15738 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 957px;
+  top: 1395px;
+}
+.desktop-8
+  .promote-team-responsibility-by-consolidating-projects-and-tasks-in-a-singular-hub-offer-every-team-member-clear-visibility-into-their-designated-duties-and-the-distinct-steps-necessary-to-achieve-them2 {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  width: 483px;
+}
+.desktop-8 .homew-2 {
+  border-radius: 10px;
+  width: 477px;
+  height: 340px;
+  position: absolute;
+  left: 161px;
+  top: 1397px;
+  overflow: hidden;
+}
+.desktop-8 .clip-path-group {
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.desktop-8 .frame-15739 {
+  background: #fff500;
+  border-radius: 4px;
+  padding: 4px 8px 4px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 20px);
+  top: 2587px;
+}
+.desktop-8 .new2 {
+  color: #333333;
+  text-align: left;
+  font-family: "Roboto-SemiBold", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+}
