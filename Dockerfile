@@ -1,51 +1,57 @@
-# Stage 1: Build Maven App
-FROM maven:3.8.4-openjdk-17-slim AS build
+# Stage 1: Install Dependencies
+FROM node:14.17.5 as installer
 WORKDIR /usr/src/app
 
-# Copy the POM file and download dependencies
-COPY pom.xml .
-RUN mvn dependency:go-offline
+# Copy only package files first to leverage Docker caching
+COPY package*.json ./
 
-# Copy the application source code
-COPY src src
+# Install dependencies
+RUN npm install
 
-# Build the application
-RUN mvn clean install
+# Stage 2: Build Angular App
+FROM installer as builder
 
-# Stage 2: Deploy WAR file to Tomcat
-FROM tomcat:9-jdk17-openjdk-slim
-WORKDIR /usr/local/tomcat/webapps
+# Copy only necessary configuration files
+COPY angular.json tsconfig.json ./
 
-# Copy the WAR file from the build image to Tomcat
-COPY --from=build /usr/src/app/target/thetym-service.war ./
+# Copy the entire project source
+COPY . .
 
-# Copy default applications from webapps.dist to webapps
-RUN cp -R /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps/
+# Build the Angular app
+RUN npx ng build --configuration=production
 
-# Modify context.xml
-RUN echo '<?xml version="1.0" encoding="UTF-8"?> \
-<Context antiResourceLocking="false" privileged="true" > \
-  <CookieProcessor className="org.apache.tomcat.util.http.Rfc6265CookieProcessor" \
-                   sameSiteCookies="strict" /> \
-  <!--<Valve className="org.apache.catalina.valves.RemoteAddrValve" \
-  allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />--> \
-  <Manager sessionAttributeValueClassNameFilter="java\.lang\.(?:Boolean|Integer|Long|Number|String)|org\.apache\.catalina\.filters\.CsrfPreventionFilter\$LruCache(?:\$1)?|java\.util\.(?:Linked)?HashMap"/> \
-</Context>' > /usr/local/tomcat/webapps/manager/META-INF/context.xml
+# Stage 3: Serve Angular App using Nginx
+FROM nginx:alpine
 
-# Modify tomcat-users.xml
-RUN echo '<?xml version="1.0" encoding="utf-8"?> \
-<tomcat-users> \
-  <role rolename="admin-gui"/> \
-  <role rolename="admin-script"/> \
-  <role rolename="manager-gui"/> \
-  <role rolename="manager-status"/> \
-  <role rolename="manager-script"/> \
-  <role rolename="manager-jmx"/> \
-  <user name="admin" password="admin" roles="admin-gui,admin-script,manager-gui,manager-status,manager-script,manager-jmx"/> \
-</tomcat-users>' > /usr/local/tomcat/conf/tomcat-users.xml
+# Remove the default configuration
+RUN rm /etc/nginx/conf.d/default.conf
 
-# Expose port 8080 (Tomcat's default port)
-EXPOSE 8080
+# Add the custom Nginx configuration directly within Dockerfile
+RUN echo ' \
+    server { \
+        listen 80; \
+        server_name localhost; \
+        \
+        access_log  /var/log/nginx/host.access.log  main; \
+        \
+        location / { \
+            root   /usr/share/nginx/html; \
+            index  index.html index.htm; \
+            try_files $uri $uri/ /index.html; \
+        } \
+        \
+        error_page  404              /index.html; \
+        \
+        # redirect server error pages to the static page /50x.html \
+        error_page   500 502 503 504  /50x.html; \
+        location = /50x.html { \
+            root   /usr/share/nginx/html; \
+        } \
+    } \
+' > /etc/nginx/conf.d/default.conf
 
-# Start Tomcat
-CMD ["catalina.sh", "run"]
+# Copy the built Angular app to the Nginx HTML directory
+COPY --from=builder /usr/src/app/dist/the-tym /usr/share/nginx/html
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
