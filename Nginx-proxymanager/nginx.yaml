@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  app:
+    image: 'jc21/nginx-proxy-manager:latest'
+    deploy:
+      mode: replicated
+      replicas: 1
+      restart_policy:
+        condition: any
+      placement:
+        constraints:
+          - node.role == manager
+    ports:
+      - '80:80'
+      - '81:81'
+      - '443:443'
+    volumes:
+      - /home/ec2-user/data:/data
+      - /home/ec2-user/letsencrypt:/etc/letsencrypt
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: overlay
